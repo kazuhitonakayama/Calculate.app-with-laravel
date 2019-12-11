@@ -16,3 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('beginner', 'BeginnerController@index');
+
+Route::get('/calculate', 'CalculateController@getcalc');
